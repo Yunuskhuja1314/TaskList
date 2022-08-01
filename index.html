@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container navbar__flex">
+      <a href="#!" class="navbar__logo">Logo</a>
+
+      <button class="navbar__btn" type="button"><span></span></button>
+
+      <div class="navbar__content">
+        <ul class="navbar__content--list">
+          <li><a href="#!">link1</a></li>
+          <li><a href="#!">link2</a></li>
+          <li><a href="#!">link3</a></li>
+          <li><a href="#!">link4</a></li>
+        </ul>
+        <form name="theme">
+          <select name="selectTheme" id="selectTheme" class="navbar__content--theme">
+            <option value="light">Светлая тема</option>
+            <option value="dark">Тёмная тема</option>
+          </select>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="tasks-form container">
+    <h3>Создать заметку</h3>
+    <form name="taskForm">
+      <input type="text" name="title" placeholder="Заголовок">
+      <textarea name="content" placeholder="Описание..."></textarea>
+      <button type="submit">Создать</button>
+    </form>
+  </div>
+
+  <div class="content container">
+    
+  </div>
+
+
+
+  <!-- <script src="main.js"></script> -->
+  <!-- <script src="tasks.js"></script> -->
+  <script src="tasks.local.js"></script>
+</body>
+</html>
